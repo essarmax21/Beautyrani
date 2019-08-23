@@ -1,0 +1,425 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sudip K. Das is a doctoral research scholar at Indian Institute of Technology (IIT) Bombay. His main interests in rsearch involve the boundary integral simulation (boundary integral method/boundary element method) of Electrohydrodynamics of drop, capsule and vesicle.">
+    <meta name="author" content="sudip das">
+    <meta name="keywords" content="sudip,das,Laurentian University,iitb,IIT,Bombay,research,electrohydrodynamics,boundary,element,method,integral,hydrodynamics,CFD,fluid,dynamics,mechanics,capsule,vesicle,drop">
+    <link rel="shortcut icon" href="assets/icon/iconskd.png">
+
+    <title>Sudip Das-Postdoc at Ecole Centrale Marseille, France||home</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+
+  </head>
+
+  <body onkeypress="return disableCtrlKeyCombination(event);" onkeydown = "return disableCtrlKeyCombination(event);" >
+<script language=JavaScript>
+<!--
+//Disable right mouse click Script
+var message="Function Disabled!";
+///////////////////////////////////
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+document.oncontextmenu=new Function("return false")
+
+function disableCtrlKeyCombination(e)
+{
+        //list all CTRL + key combinations you want to disable
+        var forbiddenKeys = new Array('a', 'c', 'x', 'v', 'u', 's');
+        var key;
+        var isCtrl;
+        if(window.event)
+        {
+                key = window.event.keyCode;     //IE
+                if(window.event.ctrlKey)
+                        isCtrl = true;
+                else
+                        isCtrl = false;
+        }
+        else
+        {
+                key = e.which;     //firefox
+                if(e.ctrlKey)
+                        isCtrl = true;
+                else
+                        isCtrl = false;
+        }
+        //if ctrl is pressed check if other key is in forbidenKeys array
+        if(isCtrl)
+        {
+                for(i=0; i<forbiddenKeys.length; i++)
+                {
+                        //case-insensitive comparation
+                        if(forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
+                        {
+                                
+                                return false;
+                        }
+                }
+        }
+        return true;
+}
+// --> 
+</script>
+<script>
+$(document).keydown(function(event){
+    if(event.keyCode==123){
+    return false;
+   }
+else if(event.ctrlKey && event.shiftKey && event.keyCode==73){        
+      return false;  //Prevent from ctrl+shift+i
+   }
+});
+</script>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<div style="background-color:black;color:white;padding:30px"></div>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">SKD</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navigationbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="publication.html">Publications</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+	<div id="headerwrap">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h4>Hello, Welcome to my research profile</h4>
+					<h1>SUDIP K. DAS</h1>
+					<h4>Postdoc at Ecole Centrale Marseille, France</h4>
+				</div>
+			</div><! --/row -->
+	    </div> <!-- /container -->
+	</div><! --/headerwrap -->
+	
+	<section id="works"></section>
+	<div class="container">
+		<div class="row centered mt mb">
+			<h1>My Research</h1>
+<p>In the field of computational fluid dynamics (CFD) my research is mainly focused on the numerical and theoretical electrohydrodynamics of soft micro-globules such as drops, 
+capsules, and vesicles. The coupled problems of electrodynamics, elasticity (for elastic materials) and hydrodynamics are solved using 3D, axisymmetric, and 2D Boundary Integral Methods (BIM/BEM) 
+for the numerical simulations, and asymptotic theory has been used for the analytical solutions.</p>      
+			
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="#section1"><img src="assets/img/portfolio/Slide2.JPG" width="350" height="350" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="#section2"><img src="assets/img/portfolio/Slide3.JPG" width="350" height="350" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="#section3"><img src="assets/img/portfolio/Slide4.JPG" width="350" height="350" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="#section4"><img src="assets/img/portfolio/Slide5.JPG" width="350" height="350" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="#section5"><img src="assets/img/portfolio/Slide6.JPG" width="350" height="350" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="#section6"><img src="assets/img/portfolio/Slide7.JPG" width="350" height="350" class="img-responsive"></a>
+			</div>
+		</div><! --/row -->
+	</div><! --/container -->
+
+
+	<div class="container" id="section1">
+		<div class="row centered mt mb">
+			<div class="col-lg-8 col-lg-offset-2">
+<h2>Drop Electrohydrodynamics in Quadrupole Electric Field</h2>	
+			</div>
+		</div><! --/row -->
+		<div class="row justify mt mb">
+			<div class="col-lg-8 col-lg-offset-2">	
+<p>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="http://iopscience.iop.org/article/10.1209/0295-5075/111/24006/meta"  target="_blank"><img src="assets/research/chdqd.png" width="350" height="350" class="img-responsive"></a>
+			</div>
+Quadrupole electric fields are commonly employed for confining charged conducting
+drops in Paul traps for studying Rayleigh instability characteristics. We investigate the effect of
+these fields on the deformation and stability characteristics of a charged liquid drop, using the
+axisymmetric boundary integral method (BIM). 
+Different combinations of the amount of charge
+and strength of the electric field give rise to different equilibrium shapes. Results
+are of significance in i) interpreting deformation and the Rayleigh stability effects using Paul
+traps with quadrupole fields, ii) designing more efficient quadrupole-field–based technologies for
+emulsification of water in oil.
+</p>
+<p>
+Fig. description: Schematic of a perfectly conducting liquid drop suspended in a dielectric fluid in a quadrupole
+electric field.
+ </p>
+
+			</div>
+		</div><! --/row -->
+	</div><! --/container -->
+
+	<div class="container" id="section2">
+		<div class="row centered mt mb">
+			<div class="col-lg-8 col-lg-offset-2">
+<h2>Capsule Electrohydrodynamics in DC Electric Field</h2>	
+			</div>
+		</div><! --/row -->
+		<div class="row justify mt mb">
+			<div class="col-lg-8 col-lg-offset-2">	
+<p>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<a href="https://doi.org/10.1017/jfm.2018.89"  target="_blank"><img src="assets/research/capdc.png" width="350" height="350" class="img-responsive"></a>
+			</div>
+The dynamics of a spherical elastic capsule, containing a Newtonian fluid bounded by an elastic membrane and immersed in another Newtonian fluid, 
+in a uniform DC electric field is investigated. Discontinuity of electrical properties, such as the conductivities of the internal and external 
+fluid media as well as the capacitance and conductance of the membrane, leads to a net interfacial Maxwell stress which can cause the deformation 
+of such an elastic capsule. We investigate this problem considering well-established membrane laws for a thin elastic membrane, with fully resolved 
+hydrodynamics in the Stokes flow limit, and describe the electrostatics using the capacitor model. In the limit of small deformation, the analytical 
+theory predicts the dynamics fairly satisfactorily. Large deformations at high capillary number, though, necessitate a numerical approach (axisymmetric 
+boundary element method in the present case) to solve this highly nonlinear problem. Akin to vesicles, at intermediate times, highly nonlinear biconcave shapes 
+along with squaring and hexagon-like shapes are observed when the outer medium is more conducting. The study identifies the essentiality of parameters such as high 
+membrane capacitance, low membrane conductance, low hydrodynamic time scales and high capillary number (the ratio of the destabilizing electric force to 
+the stabilizing elastic force) for observation of these shape transitions. The transition is due to large compressive Maxwell stress at the poles at intermediate times. 
+Thus such shape transition can be seen in spherical globules admitting electrical capacitance, possibly irrespective of the nature of the interfacial restoring force.
+
+</p>
+<p>
+Fig. description: Schematic representation of a capsule in a uniform electric field.
+
+ </p>
+			</div>
+		</div><! --/row -->
+	</div><! --/container -->
+
+
+	<div class="container" id="section3">
+		<div class="row centered mt mb">
+			<div class="col-lg-8 col-lg-offset-2">
+<h2>Capsule Electrohydrodynamics in AC Electric Field</h2>	
+			</div>
+		</div><! --/row -->
+		<div class="row justify mt mb">
+			<div class="col-lg-8 col-lg-offset-2">	
+<p>
+			<div class="col-lg-8 col-md-4 col-sm-4 gallery">
+				<a href="http://dx.doi.org/10.1039/C7SM02297B"  target="_blank"><img src="assets/research/cap_ac.jpg" width="100%" height="100%" class="img-responsive"></a>
+			</div>
+<p> 
+The axisymmetric electrohydrodynamic deformation of an elastic capsule with a capacitive membrane obeying the Skalak law under a uniform AC electric field 
+is investigated using analytical and boundary integral theory. The low capillary number (the ratio of destabilizing shear or electric force to the stabilizing 
+elastic force) regime shows that time-averaged prolate and oblate spheroid deformations, and the time-periodic prolate–sphere, oblate–sphere breathing modes are 
+commensurate with the time averaged-deformation. A novel prolate–oblate breathing mode is observed due to an interplay of finite membrane charging time and the 
+field reversal of the AC field. The study, when extended to high capillary numbers, shows new breathing modes of cylinder–prolate, cylinder–oblate, and 
+biconcave–prolate deformation. These are the results of highly compressive normal Maxwell stress at the poles and are aided by a weak compressive equatorial stress, 
+characteristic of a capacitive membrane. 
+The findings of this work should form the basis for the understanding of more complex biological cells and synthetic capsules for industrial applications.
+
+</p>
+
+<p>
+Fig. description: Nonlinear breathing modes of a Skalak elastic capsule in AC electric field. Figures represent time-periodic (<i>row 1</i>) 
+biconcave-prolate, (<i>row  2</i>) cylinder-oblate,and (<i>row 3</i>) cylinder-prolate breathing modes.
+ </p>
+
+
+
+			</div>
+		</div><! --/row -->
+	</div><! --/container -->
+
+	<div class="container" id="section4">
+		<div class="row centered mt mb">
+			<div class="col-lg-8 col-lg-offset-2">
+<h2>RBC & Discoidal Capsule Electrohydrodynamics in extensional flow and electric field</h2>	
+			</div>
+		</div><! --/row -->
+		<div class="row justify mt mb">
+			<div class="col-lg-8 col-lg-offset-2">
+<p>
+			<div class="col-lg-8 col-md-4 col-sm-4 gallery">
+				<a  href="https://doi.org/10.1017/jfm.2018.879"  target="_blank"><img src="assets/research/rbc.png" class="img-responsive" width="100%" height="100%"></a>
+			</div>	
+<p>
+Biconcave-discoid (empirical shape of a red blood cell) capsule finds numerous applications in the field of bio-fluid dynamics and rheology, 
+apart from understanding the behavior of red blood cells (RBC) in blood flow. A detailed analysis is, therefore, carried out to understand 
+the effects of the uniaxial extensional flow and electric field on the deformation of a RBC and biconcave-discoid polymeric capsule in the axisymmetric regime. 
+The transient deformation is computed numerically using axisymmetric boundary integral method for Stokes flow considering the Skalak membrane constitutive law as the 
+model for the area incompressible RBC/biconcave-discoid capsule membrane. A remarkable biconcave-discoid to prolate spheroid transition is observed when the elastic 
+energy is overcome by the viscous or Maxwell electric stresses. Moreover, the significance of membrane stresses developed during the deformation and at steady state 
+and different modes of deformation are presented. 
+This study should be useful in designing an artificial system involving biological cells under an electric field.
+
+</p>
+<p>
+Fig. description: Deformation of a biconcave-discoid elastic capsule in (<i>row 1</i>) uniaxial extensional flow, and (<i>row 2</i>) uniform DC electric 
+field considering more conducting internal fluid. 
+ </p>
+			</div>
+		</div><! --/row -->
+	</div><! --/container -->
+
+	<div class="container" id="section5">
+		<div class="row centered mt mb">
+			<div class="col-lg-8 col-lg-offset-2">
+<h2>Vesicle Electrohydrodynamics</h2>	
+			</div>
+		</div><! --/row -->
+		<div class="row justify mt mb">
+			<div class="col-lg-8 col-lg-offset-2">	
+<p>
+Ongoing - <ol>
+  <li>Developed 2D boundary integral code to analyze the dynamics of vesicle deformation in shear flow and electric field.</li>
+<li>This work is in advance stage to understand the intricate relationship between membrane tension due to area incompressibility, bending resistance, hydrodynamic and electric stress due to the applied electric field.</li>
+</p>
+			</div>
+		</div><! --/row -->
+	</div><! --/container -->
+
+	<div class="container" id="section6">
+		<div class="row centered mt mb">
+			<div class="col-lg-8 col-lg-offset-2">
+<h2>Electrospun Carbon nanofibers: improved conductivity</h2>	
+			</div>
+		</div><! --/row -->
+		<div class="row justify mt mb">
+			<div class="col-lg-8 col-lg-offset-2">	
+<p>
+			<div class="col-lg-6 col-md-4 col-sm-4 gallery">
+			<a href="http://www.sciencedirect.com/science/article/pii/S0008622316305589"  target="_blank"><img src="assets/research/cnf.png" width="100%" height="100%" class="img-responsive"></a>
+			</div>
+In this work we demonstrate that at the same pyrolysis temperature, higher graphitization can be
+attained in carbon nanofibers (CNFs) with hollow core compared to solid nanofibers, resulting in higher
+electrical conductivities in hollow CNFs. Through controlled electrospinning, single polymeric (PAN/
+PMMA) nanofibers are suspended across the walls of a photolithographically patterned SU8 micro-
+structure, followed by pyrolysis to obtain single suspended solid, porous and hollow CNFs. It is found that hollow CNFs with a shell thickness of ~35 nm demonstrate the highest electrical conductivity (~10 S/m)
+which is almost an order of magnitude higher than those of solid CNFs (~104 S/m). Further, porous CNFs
+of the same diameter show lower electrical conductivity compared to the solid fibers (~103 S/m). The
+higher electrical conductivity of hollow CNFs is attributed to: a) its higher exposed surface area which
+results in a high amount of graphitic carbon at the surface during pyrolysis, b) increased polymer chain
+alignment in the thin shell region of precursor nanofibers that translates into an improved graphitic
+orientation on carbonization. Similar values of electrical conductivity were obtained by two-probe and
+four-probe methods, proving quantitatively that the contact resistance between the hanging CNFs and
+the underlying carbon structure is negligible.
+
+</p>
+<p>
+Fig. description: Magnified FE-SEM image of (a) hollow and (b) porous CNF, showing the internal structure and cross-section. Magnified FE-SEM image of (c) porous and (d) solid CNF
+showing the surface morphology. 
+ </p>
+
+
+			</div>
+		</div><! --/row -->
+	</div><! --/container -->
+
+
+
+
+
+	<div id="social">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-2">
+				</div>
+				<div class="col-lg-2">					
+				</div>
+				<div class="col-lg-2 gallery">
+					<a href="https://www.researchgate.net/profile/Sudip_Das17" target="_blank"><img src="assets/img/rg.png" width="40" height="40" class="img-responsive"></a>
+				</div>
+				<div class="col-lg-2">				
+				</div>
+				<div class="col-lg-2 gallery">
+					<a href="https://www.linkedin.com/in/sudip-kumar-das-21b81837/" target="_blank"><img src="assets/img/in.png" width="35" height="35" class="img-responsive"></a>
+				</div>
+	
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/social -->
+
+	<div id="footerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-4">
+					<p>Postdoc, Computational & Theoretical Hydrodynamics</p>
+				</div>
+			
+				<div class="col-lg-4">
+					<p>Ecole Centrale Marseille, France</p>
+				</div>
+				<div class="col-lg-4">
+					<p>Contact: sudip-kumar.das@univ-amu.fr  &emsp;&ensp;  Updated: April, 2019</p>
+				</div>
+			</div>
+		</div>
+	</div><! --/footerwrap -->
+	
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
